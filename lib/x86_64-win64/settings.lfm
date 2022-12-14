@@ -1,0 +1,89 @@
+object FormSettings: TFormSettings
+  Left = 636
+  Height = 242
+  Top = 448
+  Width = 721
+  Caption = 'Параметры'
+  ClientHeight = 242
+  ClientWidth = 721
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object EditDosBoxDir: TEdit
+    Left = 8
+    Height = 28
+    Top = 32
+    Width = 688
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 20
+    Top = 8
+    Width = 109
+    Caption = 'Каталог DosBox'
+  end
+  object ButtonDosBoxDir: TButton
+    Left = 696
+    Height = 28
+    Top = 32
+    Width = 22
+    Caption = '...'
+    OnClick = ButtonDosBoxDirClick
+    TabOrder = 1
+  end
+  object ButtonClose: TButton
+    Left = 624
+    Height = 31
+    Top = 208
+    Width = 94
+    Caption = 'Закрыть'
+    OnClick = ButtonCloseClick
+    TabOrder = 2
+  end
+  object ButtonSave: TButton
+    Left = 528
+    Height = 31
+    Top = 208
+    Width = 94
+    Caption = 'Сохранить'
+    OnClick = ButtonSaveClick
+    TabOrder = 3
+  end
+  object EditTasmDir: TEdit
+    Left = 8
+    Height = 28
+    Top = 88
+    Width = 688
+    TabOrder = 4
+  end
+  object ButtonTasmDir: TButton
+    Left = 696
+    Height = 28
+    Top = 88
+    Width = 22
+    Caption = '...'
+    OnClick = ButtonDosBoxDirClick
+    TabOrder = 5
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 20
+    Top = 64
+    Width = 96
+    Caption = 'Каталог TASM'
+  end
+  object ButtonRewriteConfig: TButton
+    Left = 8
+    Height = 31
+    Top = 208
+    Width = 120
+    Caption = 'По умолчанию'
+    OnClick = ButtonRewriteConfigClick
+    TabOrder = 6
+  end
+  object SelectDirectoryDialog1: TSelectDirectoryDialog
+    Left = 424
+    Top = 200
+  end
+end

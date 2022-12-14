@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="D:\Lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1411537227"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw2 -godwarfsets -gl -WG -l -vewnhibq -FiD:\TASMIde\lib\x86_64-win64 -FuD:\Lazarus\components\virtualtreeview\lib\x86_64-win64-win32 -FuD:\Lazarus\components\ideintf\units\x86_64-win64\win32 -FuC:\Users\fendq\AppData\Local\lazarus\onlinepackagemanager\packages\extrasyn\lib\x86_64-win64 -FuD:\Lazarus\components\synedit\units\x86_64-win64\win32 -FuD:\Lazarus\components\lclextensions\lib\x86_64-win64-win32 -FuD:\Lazarus\components\lazcontrols\lib\x86_64-win64\win32 -FuD:\Lazarus\components\anchordocking\units\x86_64-win64\win32 -FuD:\Lazarus\lcl\units\x86_64-win64\win32 -FuD:\Lazarus\lcl\units\x86_64-win64 -FuD:\Lazarus\components\freetype\lib\x86_64-win64 -FuD:\Lazarus\components\buildintf\units\x86_64-win64 -FuD:\Lazarus\components\lazutils\lib\x86_64-win64 -FuD:\Lazarus\packager\units\x86_64-win64 -FuD:\TASMIde\ -FUD:\TASMIde\lib\x86_64-win64\ -FED:\TASMIde\ -oD:\TASMIde\idetasm.exe -dLCL -dLCLwin32 idetasm.lpr"/>
+</CONFIG>

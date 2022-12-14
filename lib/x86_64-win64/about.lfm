@@ -1,0 +1,30 @@
+object FormAbout: TFormAbout
+  Left = 819
+  Height = 173
+  Top = 372
+  Width = 279
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'О программе'
+  ClientHeight = 173
+  ClientWidth = 279
+  DesignTimePPI = 120
+  Position = poDesktopCenter
+  LCLVersion = '2.2.0.4'
+  object ButtonClose: TButton
+    Left = 88
+    Height = 31
+    Top = 136
+    Width = 110
+    Caption = 'Закрыть'
+    OnClick = ButtonCloseClick
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 120
+    Top = 8
+    Width = 259
+    Caption = 'Интегрированная среда разработки '#13#10'для Turbo Assembler'#13#10#13#10'Бураков Егор А-02'#13#10'КТИ СибГУТИ'#13#10'2022'
+  end
+end
